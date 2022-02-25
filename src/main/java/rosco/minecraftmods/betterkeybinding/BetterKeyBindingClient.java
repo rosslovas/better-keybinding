@@ -96,9 +96,4 @@ public class BetterKeyBindingClient implements ClientModInitializer {
 			enqueuedKeyBindingPress = false;
 		}
 	}
-
-	public static void debug(String message) {
-		client.inGameHud.addChatMessage(
-				MessageType.SYSTEM, new LiteralText(message), client.player.getUuid());
-	}
 }
