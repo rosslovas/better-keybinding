@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "rosco.minecraftmods.betterkeybinding.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [],
+  "client": [
+    "KeyboardMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

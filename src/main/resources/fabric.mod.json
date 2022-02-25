@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "betterkeybinding",
+  "version": "1.0.0",
+  "name": "Better Keybinding",
+  "description": "A library that supports keybindings that work in GUIs like the inventory screen.",
+  "authors": [
+    "Rosco"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "rosco.minecraftmods.betterkeybinding.BetterKeyBindingClient"
+    ]
+  },
+  "mixins": [
+    "betterkeybinding.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "fabric-key-binding-api-v1": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {}
+}
